@@ -54,6 +54,7 @@ const App = () => {
   console.log(facilityData);
   return (
     <>
+    <>hi this is trial</>
       {facilityData.map((item) => (
         <FacilityComp
           facilityName={item.facility_name}
